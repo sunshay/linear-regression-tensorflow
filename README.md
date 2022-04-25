@@ -16,6 +16,11 @@ Install tensorflow 1.x
 ```
 (linreg) $ conda install tensorflow<2
 ```
+Install Matplotlib
+
+```
+(linreg) $ conda install matplotlib
+```
 
 Execute the linear regression example
 
