@@ -5,6 +5,10 @@ Created on Fri Dec 22 11:42:59 2017
 @author: USER
 """
 
+import tensorflow as tf
+import numpy as np
+import matplotlib.pyplot as plt
+
 W=np.random.uniform(size=[20,4],low=-1,high=1)
 B=np.random.uniform(size=[1,4],low=-1,high=1)
 x_data=np.random.uniform(size=[ND,20],low=-1,high=1)
